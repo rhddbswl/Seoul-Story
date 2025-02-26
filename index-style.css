@@ -1,0 +1,146 @@
+
+/* 눈누 폰트 */
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+ }
+ 
+ .nanumbarungothic * {
+  font-family: 'NanumBarunGothic', sans-serif;
+ }
+
+ @font-face {
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iceJaram-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h3 {
+  font-family: 'GongGothicMedium';
+}
+
+body {
+  font-family: 'NanumBarunGothic';
+}
+
+/* 네비게이션바 스타일 */
+.navbar {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0));
+  height: 120px;
+}
+
+.navbar-brand {
+  font-family: 'DM Serif Display', serif;
+  margin: 4px; 
+  font-size: 1.5em; 
+}
+
+/* 네비게이션바 링크 스타일*/
+.navbar-nav {
+  margin: 3px; 
+}
+
+.nav-link {
+  color: white; 
+  margin: 0 10px; 
+}
+
+.navbar-toggler-icon {
+  border-color: white;
+}
+
+/* 동영상 헤더 스타일 */
+#video-header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  filter: brightness(95%);
+}
+
+/* 캡션 스타일 */
+#video-caption {
+  font-family: 'iceJaram-Rg';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  text-align: center;
+}
+
+#video-caption h1 {
+  font-size: 50px;
+}
+
+#video-caption button {
+  font-family: 'NanumBarunGothic';
+  font-size: 12px;
+}
+
+/* card 스타일 */
+.card {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+}
+
+.card-img-top {
+  transition: transform .7s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  font-family: 'DM Serif Display', serif;
+}
+
+
+
+
+
+
+
+
+

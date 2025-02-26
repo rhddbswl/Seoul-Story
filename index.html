@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Seoul Story</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- 외부 CSS 파일 -->
+  <link rel="stylesheet" href="index-style.css">
+
+</head>
+<body>
+
+  <!-- 네비게이션바 시작 -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand m-4 fs-1" href="#home">Seoul Story.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto m-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">홈</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seoul-introduction">서울 소개</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              자치구 상세
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href=".html">강남구</a></li>
+              <li><a class="dropdown-item" href=".html">강북구</a></li>
+              <li><a class="dropdown-item" href=".html">노원구</a></li>
+              <li><a class="dropdown-item" href=".html">송파구</a></li>
+              <li><a class="dropdown-item" href=".html">서초구</a></li>
+              <li><a class="dropdown-item" href=".html">용산구</a></li>
+              <li><a class="dropdown-item" href=".html">종로구</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 네비게이션바 끝 -->
+
+
+  <!-- 헤더영역 시작 -->
+  <header id="home">
+    <div class="container-fluid p-0">
+      <video id="video-header" autoplay muted loop>
+        <source src="media/main.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- 캡션 -->
+      <div id="video-caption">
+        <h1>당신의 서울, 당신만의 이야기</h1>
+        <a href="#seoul-introduction"> 
+          <button type="button" class="btn btn-outline-light mt-2">Seoul Story 와 함께 하세요.</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- 헤더영역 끝 -->
+
+  <!-- 틈새 정보 영역 시작 -->
+  <section class="niche-info">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            틈새 정보 &nbsp;1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            '서울'은 본래 한국어의 순우리말로서 '한 나라의 수도(首都)', 곧 '국도(國都)'를 가리키는 일반명사이다. 
+            영어로 표기하면 'Capital City' 정도가 된다. 따라서 고유명사로서의 쓰임과 별개로 '미국의 서울은 워싱턴 D.C.이다', '영국의 서울은 런던이다', '조선의 서울은 한양이다'로도 쓸 수 있는 것이다.
+            다만 1946년 지명이 '경성부'에서 '서울시', 다시 '서울특별자유시'로 바뀐지도 벌써 반세기가 넘었고 고유명사 '서울(특별시)'의 용례가 대두되어 일반명사인 '서울'은 일상 회화에서는 점차 쇠퇴하고 있다. 
+            일상적으로 '서울'이라고 하면 지명인 '서울특별시'를 가리키는 경우가 대부분이기 때문이다. 사실상 고유명사가 된 일반명사의 사례이다.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            틈새 정보 2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            서울은 현재 한국에서 유일한 특별시로, 수장인 서울특별시장은 한국 광역자치단체장 중 유일하게 장관급 대우를 받으며 국무회의 참여권 및 발언권이 있다.
+          </div>
+        </div>
+      </div>
+      <!-- 틈새 정보 추가 가능-->
+    </div>
+  </section>
+  <!-- 틈새 정보 영역 끝 -->
+
+  <!-- 소개 영역 시작  -->
+  <section id="seoul-introduction" class="py-5 my-5">
+    <!-- 개요 부분 시작 -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h3>역사와 현대가 공존하는 곳 &nbsp;<span class="fs-2">"서울특별시"</span></h3>
+          <br>
+          <p class="fs-6">
+            서울특별시는 <b class="fs-5">대한민국의 수도, 그리고 최대도시</b>입니다.<br>
+            <b class="fs-5">인구는 약 977만명</b>으로 한국 제2의 도시인 부산광역시보다도 약 3배 더 많은 명실상부한 한국의 종주도시이며,
+            역사적으로도 백제, 조선, 대한제국의 수도이자 현재 대한민국의 수도로서 중요성이 높습니다.  
+          </p>
+          <!-- 소셜 미디어 -->
+          <div class="mt-5">
+            <a href="https://www.instagram.com/seoul_official/">
+              <img src="media/instagram.png" alt="서울시 인스타그램" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.youtube.com/seoullive" class="p-2">
+              <img src="media/youtube.png" alt="서울시 유튜브" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.facebook.com/seoul.kr">
+              <img src="media/facebook.png" alt="서울시 페이스북" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://pf.kakao.com/_WlXsV" class="p-2">
+              <img src="media/kakao.png" alt="서울시 카카오톡 채널" style="width: 30px; height: 30px;">
+            </a>
+          </div>
+        </div>
+        <!-- 유튜브 영상 자동,반복 재생 -->
+        <div class="col-lg-6 text-end">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/viIhOorr11I?si=HgzLv5J9VHoAxibf&start=10&autoplay=1&mute=1&loop=1&playlist=viIhOorr11I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+        </div>
+      </div>
+    </div>
+    <!-- 개요 부분 끝 -->
+
+     <!-- 행사 안내  부분시작 -->
+     <div class="container mt-5">
+      <h3 class="text-start mb-4"><span class="fs-2">즐거운</span> 도시 !</h3>
+
+      <div class="row">
+        <!-- 행사 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4 overflow-hidden">
+            <img src="media/event1.jpg" class="card-img-top" alt="2023 서울 빛초롱 축제 & 광화문광장 마켓">
+            <div class="card-body">
+              <h4 class="card-title fw-bold my-2">2023 서울 빛초롱 축제<br>& 광화문광장 마켓</h4>
+              <p class="card-text">
+                서울의 겨울 밤을 환하게 밝히는 <서울빛초롱축제 & 광화문광장 마켓>을 개최합니다.<br>
+                전통과 현대가 어우러진 빛 조형물, 크리스마스 마켓, 인생 포토존까지! 따뜻한 연말연시 분위기를 즐겨보세요. 
+              </p>
+              <a href="https://www.stolantern.com/sub1.php?page=1" target="_blank" class="card-btn btn btn-outline-dark">웹사이트 보기</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 행사 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4 overflow-hidden">
+            <img src="media/event2.jpg" class="card-img-top" alt="DDP 겨울축제">
+            <div class="card-body">
+              <h4 class="card-title fw-bold my-2">연말 분위기 축제·공연 한 곳에…<br>`DDP 겨울축제`로 오세요!</h4>
+              <p class="card-text">
+                올 겨울 DDP 겨울축제가 여러분을 찾아갑니다.<br>
+                오직 DDP에서만 볼 수 있는 다채로운 볼거리와 체험 프로그램을 12월 21일 ~ 31일, 11일간 만나보세요.
+              </p>
+              <a href="http://ddp.or.kr/index.html?menuno=241&siteno=2&bbsno=607&boardno=16&bbstopno=607&act=view&subno=0" target="_blank" class="card-btn btn btn-outline-dark">웹사이트 보기</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 행사 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4 overflow-hidden">
+            <img src="media/event3.png" class="card-img-top" alt="2023 송현동 솔빛축제">
+            <div class="card-body">
+              <h4 class="card-title fw-bold my-2">2023 송현동 솔빛축제</h4>
+              <p class="card-text mb-5">
+                송현동 솔빛축제'는 2023 서울윈터페스타 기간중 진행되는 빛축제로 올해 첫회를 맞이하며
+                110년 만에 시민의 품으로 돌아온 열린송현 녹지광장이 낭만적이며 황홀한 빛의 숲으로 재탄생합니다.
+                서울 도심속, 자연의 모습을 품고 있는 열린송현 녹지광장에 방문하여 다채로운 조명과 빛이 만들어내는 특별한 볼거리를 체험해보세요.
+              </p>
+              <a href="https://www.seoullight.com/" target="_blank" class="card-btn btn btn-outline-dark">웹사이트 보기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 행사 안내 부분 끝 -->
+
+    <!-- 자치구 부분 시작 -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- 케로셀 시작 -->
+          <div id="carousel" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div> 
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="media/gangnam.jpg" class="d-block w-100" alt="강남구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>강남구</h1>
+                  <p>서울의 고급스럽고 현대적인 중심지</p><br>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/gangbuk.jpg" class="d-block w-100" alt="강북구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>강북구</h1>
+                  <p>서울특별시의 북서부에 위치한 자치구. 구 면적의 상당 부분을 북한산 국립공원이 차지한다.</p><br>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/nowon.jpg" class="d-block w-100" alt="노원구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>노원구</h1>
+                  <p>대규모 개발에 따라 아파트가 상당히 많은 자치구, 서울 강북 14개 구들 중 인구가 가장 많으며, 면적도 가장 넓다.</p>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/songpa.jpg" class="d-block w-100" alt="송파구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>송파구</h1>
+                  <p>서울특별시의 동남부에 위치한 자치구, 대한민국 전국 자치구 중 가장 인구가 많다.</p><br>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/seocho.jpg" class="d-block w-100" alt="서초구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>서초구</h1>
+                  <p>서울 전체로 봤을 때 남부에 위치하는 자치구</p><br>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/yongsan.jpg" class="d-block w-100" alt="용산구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>용산구</h1>
+                  <p>서울특별시의 중앙부에 위치한 자치구.</p><br>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="media/jongno.jpg" class="d-block w-100" alt="종로구">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>종로구</h1>
+                  <p>서울특별시의 중심부에 있는 자치구, 중구와 함께 서울의 도심을 이룬다. 원도심이라고도 불린다.</p>
+                  <a href=".html"><button type="button" class="btn btn-outline-light">자세히</button></a>
+                </div>
+              </div>
+              <!-- 자치구 추가 가능 -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- 케로셀 끝 -->
+        </div>
+        <div class="col-lg-4 my-auto text-end">
+          <h3><span class="fs-2">다채로운</span> 도시 !</h3><br>
+          <p class="fs-6">
+           서울은 <b class="fs-5">25개의 자치구</b>로 이루어져 있습니다.<br>
+            각 지역의 고유한 매력과 특색을 느껴보세요.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- 자치구 부분 끝 -->
+  </section>
+  <!-- 소개 영역 끝 -->
+
+  <!-- 풋터 영역 시작 -->
+  <footer class="bg-light text-dark text-start py-5">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <a href="index.html" class="logo text-dark text-decoration-none fs-3">
+            Seoul Story
+          </a>
+          <p class="text-secondary">당신의 서울, 당신의 이야기</p>
+        </div>
+                <div class="col-md-2">
+                  <h5 class="fw-bold my-3 text-dark">링크</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#home" class="link-dark text-decoration-none text-secondary">홈</a></li>
+                      <li><a href="#seoul-introduction" class="link-dark text-decoration-none text-secondary">서울 소개</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <h5 class="fw-bold my-3 text-dark">자치구 상세</h5>
+                  <ul class="list-unstyled">
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">강남구</a></li>
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">강북구</a></li>
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">노원구</a></li>
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">송파구</a></li>
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">서초구</a></li>
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">용산구</a></li>
+                      <li><a href=".html" class="link-dark text-decoration-none text-secondary">종로구</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="fw-bold my-3">서울시 SNS</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.instagram.com/seoul_official/" class="link-dark text-decoration-none text-secondary">인스타그램</a></li>
+                        <li><a href="https://www.youtube.com/seoullive" class="link-dark text-decoration-none text-secondary">유튜브</a></li>
+                        <li><a href="https://www.facebook.com/seoul.kr" class="link-dark text-decoration-none text-secondary">페이스북</a></li>
+                        <li><a href="https://pf.kakao.com/_WlXsV" class="link-dark text-decoration-none text-secondary">카카오톡 채널</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  </footer>
+  <!-- 풋터 영역 끝 -->
+
+  <!-- 스크립트 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
